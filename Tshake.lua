@@ -6770,6 +6770,7 @@ os.execute('rm -rf start.lua')
 download_to_file('https://raw.githubusercontent.com/blackg820/Tshake/master/Tshake.lua', 'Tshake.lua') 
 download_to_file('https://raw.githubusercontent.com/blackg820/Tshake/master/start.lua', 'start.lua') 
 dofile('Tshake.lua')  
+os.execute('chmod 777 Tshake.lua')
 return false
 end
 if text == "تحديث ♻" then
