@@ -5982,6 +5982,7 @@ end
 end
 if text == "تحديث" and DevTshake(msg) then
 dofile("Tshake.lua")  
+os.execute('chmod 777 Tshake.lua')
 send(msg.chat_id_, msg.id_, "☑┇تم التحديث")
 end
 if text == 'السورس' or text == 'سورس' or text == 'ياسورس' or text == 'يا سورس' then
